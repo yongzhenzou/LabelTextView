@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelTextView">
+        <attr name="maxLines" format="integer"/>
+        <attr name="drawablePadding" format="dimension|reference"/>
+        <attr name="splicingMethod" format="enum">
+            <enum name="wrap" value="1"/>
+            <enum name="splicing" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
