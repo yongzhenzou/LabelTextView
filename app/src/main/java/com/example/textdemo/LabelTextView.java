@@ -117,7 +117,7 @@ public class LabelTextView extends AppCompatTextView {
     @Override
     protected void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-
+        setContentText(contentText,drawable);
     }
 
 
